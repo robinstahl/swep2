@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5e956b-e910-4c01-9fa2-08f10e635f1b" name="Changes" comment="">
+    <list default="true" id="3d5e956b-e910-4c01-9fa2-08f10e635f1b" name="Changes" comment="Add &quot;vorlesungsbeispiele&quot; //TODO Fix JUnit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/swep2/InputTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/swep2/TestFX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swep2/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swep2/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +38,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2bFyjhsmop3ow0AUpbM8dO5nqVR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,6 +48,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.TestFX.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -43,7 +62,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.45057473",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -52,7 +74,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/swep2/vorlesungsbeispiele" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestFX">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.swep2.HelloApplication" />
       <module name="swep2" />
@@ -66,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.swep2.TestFX" />
+      <module name="swep2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.swep2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFX" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -89,11 +125,28 @@
       <updated>1705825257818</updated>
       <workItem from="1705825258874" duration="1000" />
       <workItem from="1710752946790" duration="357000" />
-      <workItem from="1710753309741" duration="843000" />
+      <workItem from="1710753309741" duration="3684000" />
     </task>
+    <task id="LOCAL-00001" summary="Add &quot;vorlesungsbeispiele&quot; //TODO Fix JUnit">
+      <option name="closed" value="true" />
+      <created>1710754478946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710754478946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add &quot;vorlesungsbeispiele&quot; //TODO Fix JUnit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;vorlesungsbeispiele&quot; //TODO Fix JUnit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
